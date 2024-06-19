@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#header {
+  background: #353a3d;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+}
+#header h3 {
+  color: #fff;
+}
+
+#box {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 530px;
+  margin: 150px auto 0px;
+  padding: 0px 24px;
+  padding-top: 30px;
+  background: #ede3e68e;
+  text-align: center;
+  font-size: larger;
+  height: 65vh;
+}
+
+#linha {
+  margin: 10px auto 10px;
+  background: #e35486;
+  height: 4px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+#pergunta {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  color: #484846;
+}
+
+#forms {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #484846;
+}
+
+#NS {
+  margin: 15px auto 0px;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+}
+
+#NS input {
+  outline: 0;
+  border: 0;
+  height: 35px;
+  width: 200px;
+  margin: 15px 25px 15px;
+}
+
+#NS p {
+  text-align: left;
+  margin: 0px 25px 0px;
+  font-size: 12px;
+  color: #484846;
+}
+
+#Email{
+    margin: 15px auto 0px;
+}
+
+#Email input{
+    outline: 0;
+    border: 0;
+    height: 35px;
+    width: 445px;
+    margin: 15px 25px 15px;
+}
+
+#Email p{
+    text-align: left;
+    margin: 0px 25px 0px;
+    font-size: 12px;
+    color: #484846;
+}
+
+#Senha input{
+    outline: 0;
+    border: 0;
+    height: 35px;
+    width: 445px;
+    margin: 15px 25px 15px;
+}
+
+#Senha p{
+    text-align: left;
+    margin: 0px 25px 0px;
+    font-size: 12px;
+    color: #484846;
+}
+
+#Botao button{
+    margin: 30px auto 0px;
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    color:#fff;
+    outline: 0;
+    border: 0;
+    background: #e35486;
+}
+
+#Botao button:hover{
+cursor: pointer;
+}
+
+
+
